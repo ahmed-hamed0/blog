@@ -125,8 +125,7 @@ body.light-theme {
 
 .logo {
     font-size: var(--font-size-md);
-    /* color: var(--light-color); */
-    color: #000066
+    color: var(--light-color);
 }
 
 .menu {
