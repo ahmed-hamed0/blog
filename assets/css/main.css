@@ -155,9 +155,12 @@ body.light-theme {
     transition: opacity .25s ease-in;
 }
 
+
+
 .place-items-center {
     font-size: 18px;
 }
+
 
 .list {
     display: flex;
@@ -245,13 +248,13 @@ body.light-theme {
 .form {
     display: flex;
     justify-content: center;
-    direction: ltr;
+    direction: rtl;
 }
 
 .form-input,
 .form-btn {
     display: inline-block;
-    outline: none;
+    outline: 3px solid #a3a3a3;
     border: 2px solid var(--secondary-background-color);
     padding: 1.5rem;
     color: var(--light-color-alt);
@@ -284,6 +287,11 @@ body.light-theme {
     width: 4rem;
     height: 4rem;
     display: flex;
+}
+
+.readmore {
+    color: skyblue;
+    font-size: 22px;
 }
 
 /* Form JavaScript styles */
@@ -791,6 +799,7 @@ body.light-theme {
     .author {
         grid-template-columns: 25rem 1fr;
     }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -927,4 +936,9 @@ body.light-theme {
     header {
         direction: ltr;
     }
+
+    h3 {
+        width: 56%;
+    }
+
 }
